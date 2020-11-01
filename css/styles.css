@@ -10246,7 +10246,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-1.png"); /* Title background image */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #080808 100%), url("../assets/img/bg-1.png"); /* Title background image */
   /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg"); /* Title background image */
   background-position: center;
   background-repeat: no-repeat;
@@ -10291,7 +10291,7 @@ body {
 
 .about-section {
   padding-top: 5.5rem;
-  background: linear-gradient(to bottom, #000000 100%, rgba(0, 0, 0, 0.97) 75%, rgba(0, 0, 0, 0.95) 100%);
+  background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.97) 75%, rgba(0, 0, 0, 0.95)  100%);
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10350,7 +10350,8 @@ body {
 .signup-section {
   padding: 10rem 0;
   /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");*/
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 0%, #000000 100%);
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.95) 0%, rgba(0, 0, 0, 0.95) 0%, #000000 100%);*/
+  background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10367,9 +10368,9 @@ body {
   border: 0;
 }
 
-.team-member-cards-section{
+.contact-section .team-member-cards-section{
   padding-top: 5rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%, #000000 100%);
+  background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
 }
 
 .team-member-cards-section .btn-primary {
@@ -10427,7 +10428,8 @@ body {
 .contact-section {
   padding-top: 0rem;
   padding-bottom: 5rem;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 100%, #000000 100%);
+  background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
+  
 }
 .contact-section .card {
   border: 0;
@@ -10472,6 +10474,7 @@ body {
 
 .footer {
   padding: 5rem 0;
+  background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
 }
 
 .team-member-section .container{
