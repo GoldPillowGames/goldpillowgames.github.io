@@ -10246,7 +10246,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #080808 100%), url("../assets/img/bg-1.png"); /* Title background image */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%, #080808 100%);/*, url("../assets/img/bg-1.png"); /* Title background image */
   /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url("../assets/img/bg-masthead.jpg"); /* Title background image */
   background-position: center;
   background-repeat: no-repeat;
@@ -10263,6 +10263,30 @@ body {
   -webkit-background-clip: text;
           background-clip: text;
 }
+
+#video_background {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  }
+  
+  #video_pattern {
+    background:#fff;
+    position: fixed;
+    opacity: 0.8;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    }
+
 .masthead h2 {
   max-width: 20rem;
   font-size: 1rem;
@@ -10371,6 +10395,7 @@ body {
 .contact-section .team-member-cards-section{
   padding-top: 5rem;
   background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
+  
 }
 
 .team-member-cards-section .btn-primary {
@@ -10429,7 +10454,6 @@ body {
   padding-top: 0rem;
   padding-bottom: 5rem;
   background: linear-gradient(to bottom, #080808 100%, rgba(0, 0, 0, 0.95) 75%, rgba(0, 0, 0, 0.95)  100%);
-  
 }
 .contact-section .card {
   border: 0;
