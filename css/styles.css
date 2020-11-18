@@ -10489,6 +10489,13 @@ body {
 .contact-section a {
   color: #a0a0a0;
 }
+.contact-section .container{
+  margin-bottom: -75px;
+}
+.signup-section .container{
+  padding-top: 0px;
+  margin-top: -100px;
+}
 
 .contact-section .social {
   margin-top: 5rem;

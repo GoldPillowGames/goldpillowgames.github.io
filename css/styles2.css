@@ -10264,7 +10264,7 @@ body {
 }
 .masthead h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 2.5rem;
+  font-size: 2rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
@@ -10302,7 +10302,7 @@ body {
 }
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 4rem;
   }
 }
@@ -10312,7 +10312,7 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 3rem;
+    font-size: 2.2rem;
     line-height: 6.5rem;
     letter-spacing: 0.8rem;
   }
@@ -10390,6 +10390,8 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
+
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -10399,6 +10401,15 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.contact-section .container{
+  margin-bottom: -75px;
+}
+
+.signup-section .container{
+  padding-top: 0px;
+  margin-top: -100px;
 }
 
 .game-section .team-member-cards-section{
