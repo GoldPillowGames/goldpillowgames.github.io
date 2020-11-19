@@ -10345,6 +10345,10 @@ body {
   padding: 4rem 0; 
 }
 
+.game-section .container{
+  margin-bottom: -75px;
+}
+
 .projects-section .featured-text {
   padding: 2rem;
 }
